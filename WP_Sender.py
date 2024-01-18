@@ -21,11 +21,17 @@
 # Project : WA_SENDER             #
 # Type    : Whatsapp - SENDER     #
 ###################################
+try:
+    import colorama
+except ModuleNotFoundError:
+    print("colorama is not Installed")
+    os.system("pip install colorama")
+
 import os
-import colorama
 import time
 import sys
 from colorama import Fore, Style
+
 
 R = Fore.RED
 B = Fore.BLUE
@@ -75,18 +81,19 @@ def main():
         print(f"{G}[{Y}+{G}]{M}Crashing Whatsapp on No. : +{cncode}{num} ...")
         time.sleep(5)
         link = (f"""xdg-open https://wa.me/{combnum}/?text=Join Starzplay""")
-    for i in range(crash):
-        print()
-        print(f"{Y}[✓] Sending Now\n")
-        print(f"{G}[{Y}+{G}]{M}Applying 40sec delay...")
-        link1 = os.system(link)
-        time.sleep(40)
-        if link1 == 0:
-            print(f"{G} Successful")
-            pass
-        else:
-            print(f"{R}[×] Failed  ")
-        time.sleep(0.2)
+   for i in range(crash):
+    print()
+    print(f"{Y}[✓] Sending Now\n")
+    print(f"{G}[{Y}+{G}]{M}Applying 40sec delay...")
+    link1 = os.system(link)
+    time.sleep(40)
+    if link1 == 0:
+        print(f"{G} Successful")
+        pass
+    else:
+        print(f"{R}[×] Failed  ")
+    time.sleep(0.2)
+
     return main()
 
 

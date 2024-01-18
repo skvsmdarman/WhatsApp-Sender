@@ -32,7 +32,8 @@ pip install colorama
 git clone https://github.com/skvsmdarman/WhatsApp-Sender
 ```
 ```bash
-cd WA_CRASHER
+cd WhatsApp-Sender
+
 ```
 ```bash
 chmod +x WA_CRASHER.py (optional)

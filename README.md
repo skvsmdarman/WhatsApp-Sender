@@ -1,8 +1,6 @@
 # WhatsApp-Sender
 WhatsAPP Sender TOOl
 
-# WA_CRASHER
-WhatsApp Crash With one  Message
 
 ###### Crash Whatsapp by  sending Only One Text.
 ***

@@ -38,6 +38,6 @@ cd WA_CRASHER
 chmod +x WA_CRASHER.py (optional)
 ```
 ```bash
-python3 WA_CRASHER.py
+python3 WP_Sender.py
 ```
 

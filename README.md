@@ -36,7 +36,7 @@ cd WhatsApp-Sender
 
 ```
 ```bash
-chmod +x WA_CRASHER.py (optional)
+chmod +x WP_Sender.py (optional)
 ```
 ```bash
 python3 WP_Sender.py

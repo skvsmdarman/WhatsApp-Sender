@@ -29,7 +29,7 @@ pkg install python git -y
 pip install colorama
 ```
 ```bash
-git clone [https://github.com/XPH4N70M/WA_CRASHER](https://github.com/skvsmdarman/WhatsApp-Sender)
+git clone https://github.com/skvsmdarman/WhatsApp-Sender
 ```
 ```bash
 cd WA_CRASHER
